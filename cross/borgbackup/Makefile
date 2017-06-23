@@ -41,7 +41,7 @@ BORGBACKUP_DIR = $(WORK_DIR)/src/github.com/$(PKG_NAME)/$(SHORT_NAME)-$(PKG_VERS
 EXTRACT_PATH = $(WORK_DIR)/src/github.com/$(PKG_NAME)
 BORGBACKUP_BIN = $(WORK_DIR)/src/github.com/$(PKG_NAME)/$(PKG_NAME)/syncthing
 
-include ../../mk/spksrc.cross-cc.mk
+include ../../mk/spksrc.python-wheel.mk
 
 # use workdir as gopath
 #ENV += GOPATH=$(WORK_DIR)

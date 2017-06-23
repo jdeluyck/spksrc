@@ -1,1 +1,1 @@
-llfuse
+llfuse<2.0
