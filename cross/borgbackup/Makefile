@@ -7,7 +7,6 @@ PKG_DIST_SITE = https://github.com/$(PKG_NAME)/$(SHORT_NAME)/archive
 PKG_DIR = $(PKG_NAME)
 
 DEPENDS = cross/fuse cross/python
-#native/go 
 
 HOMEPAGE = http://www.borgbackup.org/
 COMMENT  = Deduplicating archiver with compression and encryption
