@@ -6,7 +6,7 @@ BETA = 1
 
 #UNSUPPORTED_ARCHS = $(PPC_ARCHES)
 
-BUILD_DEPENDS = cross/python cross/setuptools cross/pip cross/wheel 
+BUILD_DEPENDS = cross/python3 cross/setuptools cross/pip cross/wheel 
 BUILD_DEPENDS += cross/$(SPK_NAME)
 
 WHEELS = src/requirements.txt
